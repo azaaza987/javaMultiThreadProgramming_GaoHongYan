@@ -1,0 +1,5 @@
+chapter01 Java多线程技能
+            主要包括 Thread#interrupted(), Thread#isInterrupted() 方法的使用和区别
+            以及让线程响应中断的常用的方法
+
+
