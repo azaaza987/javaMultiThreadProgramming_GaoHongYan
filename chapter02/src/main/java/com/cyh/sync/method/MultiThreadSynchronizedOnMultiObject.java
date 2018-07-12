@@ -1,4 +1,4 @@
-package com.cyh.lock.monitor;
+package com.cyh.sync.method;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
