@@ -37,6 +37,9 @@ public class SyncMethodCannotBeExtended {
     }
 
     static class Main {
+        /**
+         * 提示：方法被 Synchronized 关键字修饰
+         */
         synchronized void serviceMethod() {
             System.out.println("Main " + Thread.currentThread().getName() + " -begin- " + new Date());
             try {
@@ -49,6 +52,9 @@ public class SyncMethodCannotBeExtended {
     }
 
     static class Sub extends Main {
+        /**
+         * 提示：方法 没有 没有 没有 没有 被 Synchronized 关键字修饰
+         */
         @Override
         void serviceMethod() {
             System.out.println("Sub " + Thread.currentThread().getName() + " -begin- " + new Date());
